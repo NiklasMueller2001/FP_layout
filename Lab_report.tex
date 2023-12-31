@@ -1,0 +1,57 @@
+% ******************************* Lab report Template ***************************
+
+\documentclass[a4paper,12pt,unnumberedsections,twoside]{Classes/LTJournalArticle}
+
+% ******************************************************************************
+% ******************************* Configurations ********************************
+% ******************************************************************************
+
+\input{Preamble/preamble}
+
+\addbibresource{References/sample.bib}
+
+%\runninghead{} % A shortened article title to appear in the running head, leave this command empty for no running head
+
+%\footertext{\textit{} % Text to appear in the footer, leave this command empty for no footer text
+
+\setcounter{page}{1} % The page number of the first page, set this to a higher number if the article is to be part of an issue or larger work
+
+\title{An Article Title That Spans Multiple\\ Lines to Show Line Wrapping} % Article title, use manual lines breaks (\\) to beautify the layout
+
+\author{%
+	Leon Quitzsch, Niklas Müller
+}
+
+\renewcommand{\maketitlehookd}{%
+	\begin{abstract}
+		\noindent Empty abstract.
+	\end{abstract}
+}
+
+
+\begin{document}
+
+
+\maketitle
+
+% *********************** Adding TOC  ***********************
+
+\tableofcontents
+
+% \printnomenclature[space] space can be set as 2em between symbol and description
+%\printnomenclature[3em]
+
+% ******************************** Main Matter *********************************
+
+%\input{Theory/theory}
+%\input{Methods/methods}
+%\input{Analysis_1/analysis_1}
+%\input{Analysis_2/analysis_2}
+%\input{Results/results}
+%\input{Appendix/appendix}
+
+% ********************************** Bibliography ******************************
+
+\printbibliography % Output the bibliography
+
+\end{document}

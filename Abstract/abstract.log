@@ -1,0 +1,36 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.12.1)  1 DEC 2023 17:12
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./abstract.tex
+(abstract.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+
+! LaTeX Error: Command \maketitlehookd undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \renewcommand{\maketitlehookd}
+                                  {%
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+! Emergency stop.
+<*> ./abstract.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 19 strings out of 475248
+ 465 string characters out of 5757813
+ 1917785 words of memory out of 5000000
+ 21643 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 13i,0n,12p,120b,14s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

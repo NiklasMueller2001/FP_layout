@@ -1,0 +1,300 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.12.1)  1 DEC 2023 17:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./preamble.tex
+(preamble.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+! Undefined control sequence.
+l.7 \ifsetCustomMargin
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(C:\Users\nmuel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\nmuel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\nmuel\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\nmuel\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks18
+
+(C:\Users\nmuel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+! Missing \endcsname inserted.
+<to be read again> 
+                   \@classoptionslist 
+l.1003 \ProcessOptionsKV[c]{Gm}
+                               %
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! Package geometry Error: \paperwidth (0.0pt) too short.
+
+See the geometry package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1006 \Gm@process
+                  
+Set a paper type (e.g., `a4paper').
+
+
+! Package geometry Error: \paperheight (0.0pt) too short.
+
+See the geometry package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1006 \Gm@process
+                  
+Set a paper type (e.g., `a4paper').
+
+
+Package geometry Warning: `width' results in NEGATIVE (-190.63345pt).
+    `lmargin' or `rmargin' should be shortened in length.
+
+
+Package geometry Warning: `height' results in NEGATIVE (-184.9429pt).
+    `tmargin' or `bmargin' should be shortened in length.
+
+)
+! Undefined control sequence.
+<recently read> \setFancyHdr 
+                             
+l.9   \setFancyHdr
+                   % To apply fancy header after geometry package is loaded
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+l.10 \fi
+        
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+l.25 \ifsetCustomFont
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+l.42 \fi
+        
+I'm ignoring this; it doesn't match any \if.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \usepackage{
+                 amsmath}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+(C:\Users\nmuel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\nmuel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen148
+\captionmargin=\dimen149
+\caption@leftmargin=\dimen150
+\caption@rightmargin=\dimen151
+\caption@width=\dimen152
+\caption@indent=\dimen153
+\caption@parindent=\dimen154
+\caption@hangindent=\dimen155
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+Package caption Info: Document class w/o caption stuff detected.
+)
+\c@caption@flags=\count188
+\c@continuedfloat=\count189
+)
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \usepackage{
+                 float}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 \usepackage{
+                 subcaption}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 \usepackage{
+                 booktabs} % For professional looking tables
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 \usepackage{
+                 multirow}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 \usepackage{
+                 svg}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \usepackage{
+                 graphicx, import}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 \usepackage{
+                 siunitx} % use this package module for SI units
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+! Undefined control sequence.
+l.137 \ifuseCustomBib
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(C:\Users\nmuel\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip50
+\bibsep=\skip51
+
+! Undefined control sequence.
+l.640  {\@listi
+                \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count190
+
+! LaTeX Error: Environment thebibliography undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1063 \renewenvironment{thebibliography}
+                                         [1]{%
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+! Extra \fi.
+l.145 \fi
+         
+I'm ignoring this; it doesn't match any \if.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 \usepackage[backend=biber]{
+                                 biblatex}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+)
+! Emergency stop.
+<*> ./preamble.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 2324 strings out of 475248
+ 40203 string characters out of 5757813
+ 1917785 words of memory out of 5000000
+ 23920 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,0n,65p,332b,48s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

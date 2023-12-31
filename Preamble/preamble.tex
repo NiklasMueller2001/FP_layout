@@ -1,0 +1,169 @@
+% ******************************************************************************
+% Add spaces between paragraphs
+%\setlength{\parskip}{0.5em}
+% Ragged bottom avoids extra whitespaces between paragraphs
+\raggedbottom
+% To remove the excess top spacing for enumeration, list and description
+%\usepackage{enumitem}
+%\setlist[enumerate,itemize,description]{topsep=0em}
+
+% *****************************************************************************
+% ******************* Fonts (like different typewriter fonts etc.)*************
+
+% *****************************************************************************
+% **************************** Custom Packages ********************************
+
+% **************************** ******Math *************************************
+\usepackage{amsmath}
+
+% ************************* Algorithms and Pseudocode **************************
+
+%\usepackage{algpseudocode}
+
+
+% ********************Captions and Hyperreferencing / URL **********************
+
+% Captions: This makes captions of figures use a boldfaced small font.
+\RequirePackage[tableposition=top]{caption}
+%\DeclareCaptionFormat{custom}{#1#2\small #3}
+\captionsetup{labelfont={sc,bf}, width=.9\textwidth}%format=custom, 
+%\renewcommand{\figurename}{Fig.} %to support older versions of captions.sty
+
+
+% *************************** Graphics and figures *****************************
+
+%\usepackage{rotating}
+%\usepackage{wrapfig}
+
+% Uncomment the following two lines to force Latex to place the figure.
+% Use [H] when including graphics. Note 'H' instead of 'h'
+\usepackage{float}
+%\restylefloat{figure}
+
+% Subcaption package is also available in the sty folder you can use that by
+% uncommenting the following line
+% This is for people stuck with older versions of texlive
+%\usepackage{sty/caption/subcaption}
+\usepackage{subcaption}
+
+% ********************************** Tables ************************************
+\usepackage{booktabs} % For professional looking tables
+\usepackage{multirow}
+\usepackage{svg}
+\usepackage{graphicx, import}
+
+%\usepackage{multicol}
+%\usepackage{longtable}
+%\usepackage{tabularx}
+
+
+% *********************************** SI Units *********************************
+\usepackage{siunitx} % use this package module for SI units
+\ifdefined\qty\else
+	\ifdefined\NewCommandCopy
+		\NewCommandCopy\qty\SI
+	\else
+		\NewDocumentCommand\qty{O{}mm}{\SI[#1]{#2}{#3}}
+	\fi
+	\fi
+\ifdefined\unit\else
+	\ifdefined\NewCommandCopy
+		\NewCommandCopy\unit\si
+	\else
+		\NewDocumentCommand\unit{O{}m}{\si[#1]{#2}}
+	\fi
+\fi
+
+
+
+% ******************************* Line Spacing *********************************
+
+% Choose linespacing as appropriate. Default is one-half line spacing as per the
+% University guidelines
+
+% \doublespacing
+% \onehalfspacing
+% \singlespacing
+
+
+% ************************ Formatting / Footnote *******************************
+
+% Don't break enumeration (etc.) across pages in an ugly manner (default 10000)
+%\clubpenalty=500
+%\widowpenalty=500
+
+%\usepackage[perpage]{footmisc} %Range of footnote options
+
+
+% *****************************************************************************
+% *************************** Bibliography  and References ********************
+
+%\usepackage{cleveref} %Referencing without need to explicitly state fig /table
+
+\usepackage[backend=biber]{biblatex}
+% changes the default name `Bibliography` -> `References'
+
+
+% ******************************************************************************
+% ************************* User Defined Commands ******************************
+% ******************************************************************************
+
+% *********** To change the name of Table of Contents / LOF and LOT ************
+
+%\renewcommand{\contentsname}{My Table of Contents}
+%\renewcommand{\listfigurename}{My List of Figures}
+%\renewcommand{\listtablename}{My List of Tables}
+
+
+% ********************** TOC depth and numbering depth *************************
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+
+% ******************************* Nomenclature *********************************
+
+% To change the name of the Nomenclature section, uncomment the following line
+
+%\renewcommand{\nomname}{Symbols}
+
+
+% ********************************* Appendix ***********************************
+
+% The default value of both \appendixtocname and \appendixpagename is `Appendices'. These names can all be changed via:
+
+%\renewcommand{\appendixtocname}{List of appendices}
+%\renewcommand{\appendixname}{Appndx}
+
+% *********************** Configure Draft Mode **********************************
+
+% Uncomment to disable figures in `draft'
+%\setkeys{Gin}{draft=true}  % set draft to false to enable figures in `draft'
+
+% These options are active only during the draft mode
+% Default text is "Draft"
+%\SetDraftText{DRAFT}
+
+% Default Watermark location is top. Location (top/bottom)
+%\SetDraftWMPosition{bottom}
+
+% Draft Version - default is v1.0
+%\SetDraftVersion{v1.1}
+
+% Draft Text grayscale value (should be between 0-black and 1-white)
+% Default value is 0.75
+%\SetDraftGrayScale{0.8}
+
+
+% ******************************** Todo Notes **********************************
+%% Uncomment the following lines to have todonotes.
+
+%\ifsetDraft
+%	\usepackage[colorinlistoftodos]{todonotes}
+%	\newcommand{\mynote}[1]{\todo[author=kks32,size=\small,inline,color=green!40]{#1}}
+%\else
+%	\newcommand{\mynote}[1]{}
+%	\newcommand{\listoftodos}{}
+%\fi
+
+% Example todo: \mynote{Hey! I have a note}
